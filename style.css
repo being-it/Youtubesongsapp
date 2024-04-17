@@ -1,0 +1,238 @@
+/* Set the font family for the whole page to Arial or sans-serif */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  margin-top: 120px;
+}
+
+.about-img {
+  width: auto;
+  height: 100px;
+}
+
+.contact-img {
+  width: auto;
+  height: 100px;
+}
+
+
+.navbar-brand {
+  font-size: 35px;
+  width: 40%;
+}
+
+.nit-logo {
+  width: auto;
+  height: 200px;
+}
+
+
+
+
+#songs{
+  margin-bottom: 20px;
+}
+/* Style for text area input */
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  /* Allow vertical resizing */
+}
+
+/* Style for hyperlink */
+a {
+  color: blue;
+  text-decoration: underline;
+}
+
+/* Style for a hyperlink with class "hyperlink" */
+a.hyperlink {
+  color: blue;
+  text-decoration: underline;
+}
+
+/* Style for heading 1 */
+h1 {
+  margin: 0;
+  padding: 1rem;
+  background-color: #333;
+  color: white;
+
+  text-align: center;
+}
+
+/* Style for form */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Style for text input */
+input[type="text"] {
+  padding: 0.5rem;
+  margin: 1rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Style for submit button */
+input[type="submit"] {
+  padding: 0.5rem;
+  margin: 1rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+}
+
+/* Style for output list */
+.output {
+  margin: 2rem;
+  padding: 0;
+  list-style: none;
+}
+
+/* Style for song elements in the list */
+.song {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Style for heading 2 inside song element */
+.song h2 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-left: 1rem;
+}
+
+/* Style for hyperlink inside song element */
+.song a {
+  margin-left: 1rem;
+  font-size: 0.8rem;
+  color: #333;
+  text-decoration: none;
+  word-wrap: break-word;
+  word-break: break-all;
+  display: inline-block;
+  background-color: #333;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 4px;
+  text-align: center;
+}
+
+/* Style for image inside song element */
+.song img {
+  max-width: 100%;
+  height: auto;
+  margin-right: 1rem;
+}
+
+/* Style for song number inside song element */
+.song-number {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-right: 1rem;
+  display: inline-block;
+  width: 40px;
+}
+
+/* Style for song title inside song element */
+.song-title {
+  flex: 1;
+  font-size: 1rem;
+  font-weight: bold;
+  white-space: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Style for song thumbnail image inside song element */
+.song-thumbnail {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  margin-left: 10px;
+  background-image: url("thumbnail.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Style for the "watch" button inside the song element */
+.song-watch {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.txt{
+  font-size: 50px;
+}
+
+.padd{
+  padding: 100px;
+}
+
+.desc{
+  margin: 5px;
+}
+
+#song-count {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+.container {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  margin-right: 10px;
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.button-spacing {
+  margin-right: 20px;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+.button:active {
+  background-color: #222;
+  transform: translateY(1px);
+}
+
+.container-view {
+  display: flex;
+}
